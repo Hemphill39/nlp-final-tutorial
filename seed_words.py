@@ -5,7 +5,6 @@ import random
 pos_synsets = []
 neg_synsets = []
 
-
 # find the most positive and negative words in sentiwordnet
 for synset in swn.all_senti_synsets():
     if synset.pos_score() > 0.70:
@@ -15,7 +14,7 @@ for synset in swn.all_senti_synsets():
         neg_synsets.append(synset)
 
 # reduce the negative word list to around 500
-neg_synsets = [ neg_synsets[i] for i in sorted(random.sample(range(len(neg_synsets)), 536)) ]
+neg_synsets = [ neg_synsets[i] for i in sorted(random.sample(range(len(neg_synsets)), len(pos_synsets))) ]
 
 print('num positive ' + str(len(pos_synsets)))
 print('num negative ' + str(len(neg_synsets)))
