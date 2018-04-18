@@ -1,21 +1,13 @@
 from nltk.corpus import brown, movie_reviews
 from nltk.text import TokenSearcher
+from tutorial_util import load_seed_words
 import nltk
 # import nltk  nltk.download('brown') nltk.download('movie_reviews')
 
 def write_word_pair(f, word1, word2):
     f.write(word1 + ' ' + word2 + '\n')
 
-pos_words = [] 
-neg_words = []
-
-with open('pos_words.txt', 'r') as f:
-    for line in f:
-        pos_words.append(line.replace('\n', ''))
-
-with open('neg_words.txt', 'r') as f:
-    for line in f:
-        neg_words.append(line.replace('\n', ''))
+pos_words, neg_words = load_seed_words('pos_words.txt', 'neg_words.txt')
 
 # resource to do regex
 # http://www.nltk.org/book/ch03.html

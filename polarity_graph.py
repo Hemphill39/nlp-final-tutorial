@@ -29,9 +29,9 @@ for new_word in but_relationships:
             distance_matrix[new_word][seed_word] = 0
 
         if seed_word in pos_words:
-            distance_matrix[new_word][seed_word] += 1
+            distance_matrix[new_word][seed_word] -= 1
 
         if seed_word in neg_words:
-            distance_matrix[new_word][seed_word] -= 1
+            distance_matrix[new_word][seed_word] += 1
 
 print('done!')
