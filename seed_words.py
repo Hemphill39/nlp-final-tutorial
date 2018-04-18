@@ -1,9 +1,12 @@
 from nltk.corpus import sentiwordnet as swn
+# import nltk nltk.download('sentiwordnet')
 import random
 
 pos_synsets = []
 neg_synsets = []
 
+
+# find the most positive and negative words in sentiwordnet
 for synset in swn.all_senti_synsets():
     if synset.pos_score() > 0.70:
         pos_synsets.append(synset)
@@ -36,7 +39,7 @@ for syn in neg_synsets:
 
 
 pos_word_file = open('pos_words.txt', 'w')
-neg_word_file = open('neg_words_file.txt', 'w')
+neg_word_file = open('neg_words.txt', 'w')
 
 for word in pos_words:
     pos_word_file.write("%s\n" % word)
