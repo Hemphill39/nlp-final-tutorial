@@ -8,6 +8,7 @@ def write_word_pair(f, word1, word2):
     f.write(word1 + ' ' + word2 + '\n')
 
 pos_words, neg_words = load_seed_words('pos_words.txt', 'neg_words.txt')
+all_words = pos_words + neg_words
 
 # resource to do regex
 # http://www.nltk.org/book/ch03.html
@@ -35,13 +36,11 @@ for and_seq in and_sequences:
         if word1 in pos_words:
             seed_word = word1
             new_word = word2
-        elif word2 in pos_words:
+            write_word_pair(and_relationships, seed_word, new_word)
+        if word2 in pos_words:
             seed_word = word2
             new_word = word1
-        else:
-            print("neither word in positive set")
-
-        write_word_pair(and_relationships, seed_word, new_word)
+            write_word_pair(and_relationships, seed_word, new_word)
     elif word1 in neg_words or word2 in neg_words:
         # write to a positive file in format 'seed_word new_word'
         seed_word = ''
@@ -49,13 +48,11 @@ for and_seq in and_sequences:
         if word1 in neg_words:
             seed_word = word1
             new_word = word2
-        elif word2 in neg_words:
+            write_word_pair(and_relationships, seed_word, new_word)
+        if word2 in neg_words:
             seed_word = word2
             new_word = word1
-        else:
-            print("neither word in negative set")
-
-        write_word_pair(and_relationships, seed_word, new_word)
+            write_word_pair(and_relationships, seed_word, new_word)
 
 for but_seq in but_sequences:
     word1 = but_seq[0]
@@ -69,13 +66,12 @@ for but_seq in but_sequences:
         if word1 in pos_words:
             seed_word = word1
             new_word = word2
+            write_word_pair(but_relationships, seed_word, new_word)
         elif word2 in pos_words:
             seed_word = word2
             new_word = word1
-        else:
-            print("neither word in positive set")
+            write_word_pair(but_relationships, seed_word, new_word)
 
-        write_word_pair(but_relationships, seed_word, new_word)
     elif word1 in neg_words or word2 in neg_words:
         # write to a positive file in format 'seed_word new_word'
         seed_word = ''
@@ -83,14 +79,11 @@ for but_seq in but_sequences:
         if word1 in neg_words:
             seed_word = word1
             new_word = word2
+            write_word_pair(but_relationships, seed_word, new_word)
         elif word2 in neg_words:
             seed_word = word2
             new_word = word1
-        else:
-            print("neither word in negative set")
-
-        write_word_pair(but_relationships, seed_word, new_word)
-
+            write_word_pair(but_relationships, seed_word, new_word)
 
 and_relationships.close()
 but_relationships.close()

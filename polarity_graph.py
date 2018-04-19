@@ -19,6 +19,7 @@ for new_word in and_relationships:
 
         if seed_word in neg_words:
             distance_matrix[new_word][seed_word] -= 1
+
         
 for new_word in but_relationships:
     if new_word not in distance_matrix:

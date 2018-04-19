@@ -2,6 +2,7 @@ good bad
 white bronson
 direct theatrical
 better better
+better better
 good by
 bluff bluster
 bad jones
@@ -43,6 +44,7 @@ out cows
 music comedy
 make mountains
 shame disappointment
+disappointment shame
 see evening
 make cast
 eye say
@@ -75,6 +77,7 @@ green title
 drama tragedy
 out i
 clean nice
+nice clean
 levity humour
 logic wasted
 out then
@@ -135,6 +138,7 @@ poor faces
 xenophobic insulting
 think stop
 time possible
+possible time
 make ocean
 bad wardrobe
 bright resourceful
@@ -172,6 +176,7 @@ out buy
 out still
 pleaser that
 hate negativity
+negativity hate
 solid fresh
 see match
 love friendship
@@ -243,6 +248,7 @@ precise stylish
 fear loathing
 shock audience
 dirty potty
+time time
 time time
 make idea
 pathos feeling
@@ -327,6 +333,7 @@ time reverse
 disappointing home
 good the
 good evil
+evil good
 time with
 character the
 see money
@@ -369,6 +376,7 @@ character scenes
 out goofy
 angry the
 likable attractive
+attractive likable
 courtesy compassion
 promising star
 decency her
@@ -399,7 +407,9 @@ sound sight
 fat pimple
 time mine
 well good
+good well
 give difference
+time time
 time time
 reverend stigmata
 simply performances
@@ -474,6 +484,7 @@ character you
 out car
 character plot
 bright happy
+happy bright
 love eventually
 wrong don
 well helped
@@ -507,6 +518,7 @@ meek soft
 best pissed
 see it
 good evil
+evil good
 hot humid
 character really
 golden brown
@@ -517,6 +529,7 @@ sound visual
 out in
 make him
 beautiful kind
+kind beautiful
 smart subversive
 bright vivid
 character her
@@ -529,10 +542,14 @@ paranoid terrified
 engaging exciting
 see all
 pleasant beautiful
+beautiful pleasant
 white language
 attractive pleasant
+pleasant attractive
 attractive pleasant
+pleasant attractive
 attractive pleasant
+pleasant attractive
 character her
 nice awful
 drama brutal
@@ -622,6 +639,7 @@ dirty down
 make kiss
 smart direction
 embarrassing poor
+poor embarrassing
 out accomplishes
 poor acting
 better often
@@ -658,6 +676,7 @@ love hurlyburly
 good any
 good bad
 respect merit
+merit respect
 worst performances
 time jack
 inconsistent rough
@@ -693,6 +712,7 @@ crude stereotypical
 time again
 good new
 time kill
+kill time
 bad uninteresting
 love politics
 character merely
@@ -701,6 +721,7 @@ white black
 time again
 bad dialogue
 sweet likable
+likable sweet
 good the
 bad showed
 time i
@@ -709,8 +730,10 @@ dead hotshot
 make lives
 possible histories
 clean understated
+understated clean
 out touch
 good evil
+evil good
 suit a
 suit a
 suit a
@@ -774,11 +797,13 @@ music the
 music live
 ear straight
 good evil
+evil good
 well out
 music image
 dead roger
 favor rent
 respect admiration
+admiration respect
 devilish cold
 likable sympathetic
 drama social
@@ -788,6 +813,7 @@ best most
 make downfall
 prosperity glamour
 paranoia bad
+bad paranoia
 patience skill
 excellent art
 black has
@@ -807,6 +833,7 @@ beautiful liberating
 give vader
 give surrender
 nice sweet
+sweet nice
 best biggest
 nice mouth
 angry frightened
@@ -834,6 +861,7 @@ make up
 worthy even
 well tense
 fear paranoia
+paranoia fear
 rousing chilling
 fresh postmodern
 bright loopy
@@ -852,6 +880,7 @@ fear taking
 promising piano
 question human
 well give
+give well
 music tension
 dirty sweaty
 pale thinly
@@ -859,7 +888,9 @@ fear the
 honor lost
 love understanding
 good evil
+evil good
 dignity purity
+purity dignity
 beautiful totally
 music pau
 modest focused
@@ -932,6 +963,7 @@ divine wills
 coherence divergence
 tough unnerving
 good evil
+evil good
 shock cleverness
 cruelty his
 charming kindly
@@ -950,6 +982,7 @@ see buy
 important interesting
 grace color
 honest decent
+decent honest
 dreadfully unfunny
 sweet caring
 well will
@@ -989,6 +1022,7 @@ engaging refreshing
 accomplished commanding
 fire action
 character make
+make character
 character his
 fresh electrifying
 character plot
@@ -1046,8 +1080,10 @@ rare interesting
 decent smart
 white black
 beautiful loving
+loving beautiful
 impossible id4
 delicate sweet
+sweet delicate
 sound special
 outstanding interesting
 make skywalker
@@ -1065,6 +1101,7 @@ make dream
 love know
 better more
 favor see
+see favor
 well really
 music animation
 fresh spontaneous
@@ -1073,6 +1110,7 @@ weakness strength
 out in
 time is
 good evil
+evil good
 make swamp
 time place
 time place
@@ -1084,6 +1122,7 @@ serious downbeat
 out touch
 better bigger
 good evil
+evil good
 make mile
 love the
 out pointless
@@ -1092,11 +1131,13 @@ bright cheery
 white black
 brilliant liquid
 good evil
+evil good
 intellectual perhaps
 character an
 delightful setting
 loving capable
 cruelty crudeness
+crudeness cruelty
 character juni
 out in
 sound picture
@@ -1112,6 +1153,7 @@ well suspenseful
 great touching
 black fears
 good evil
+evil good
 dead inexplicably
 paranoid rib
 best wife
@@ -1142,9 +1184,11 @@ thorough entertaining
 love action
 unhappy spiteful
 music sound
+sound music
 awkward hearted
 best they
 ill unable
+unable ill
 make york
 clean in
 due misunderstanding
@@ -1202,6 +1246,7 @@ discontented unconnected
 music images
 pomp circumstance
 idyllic pivotal
+pivotal idyllic
 beautiful wondrous
 honor daughter
 kill phantoms
@@ -1250,6 +1295,7 @@ embarrassing sensitive
 love harrelson
 love care
 good evil
+evil good
 music an
 time care
 beautiful famous
@@ -1282,6 +1328,7 @@ classic i
 constant more
 sensibility sense
 love logic
+logic love
 drama even
 panic confusion
 give plan
@@ -1313,6 +1360,7 @@ pathos really
 happy moments
 suit goggles
 naked green
+green naked
 love rivalry
 base catch
 free kills
@@ -1321,6 +1369,7 @@ fire brimstone
 fire huge
 time managed
 beautiful charm
+time time
 time time
 beautiful uniquely
 white ish
@@ -1332,6 +1381,7 @@ out leap
 love pain
 solid sincere
 nice sophisticated
+sophisticated nice
 evil mysterious
 happiness peace
 free army
@@ -1418,6 +1468,7 @@ white tie
 legendary screenwriter
 favor don
 see think
+think see
 give hamlet
 possible all
 time he
@@ -1427,6 +1478,7 @@ happy madison
 see movie
 bad walls
 time wonder
+wonder time
 see doing
 see there
 out be
@@ -1442,6 +1494,7 @@ pretty young
 trouble has
 clean sunlit
 logic morality
+morality logic
 out look
 out meaningless
 time its
@@ -1458,6 +1511,7 @@ like as
 great acting
 protect color
 brilliant simply
+simply brilliant
 cheer up
 outstanding moving
 happy increasingly
@@ -1473,6 +1527,7 @@ intimate warm
 cruelty demented
 formidable mysterious
 stunning worthy
+worthy stunning
 corruption violence
 superb sets
 character action
@@ -1483,6 +1538,7 @@ see back
 exposure realization
 wrong right
 good evil
+evil good
 constant force
 creepy morbid
 love murders
@@ -1491,6 +1547,7 @@ well even
 well lacks
 solid score
 white clean
+clean white
 wrong audience
 corruption depths
 superior unique
@@ -1531,6 +1588,7 @@ delightful funny
 serve place
 rousing as
 charming well
+well charming
 beautiful popular
 hollywood its
 good script
@@ -1566,8 +1624,10 @@ bowed pills
 good the
 paranoid greedy
 grace grace
+grace grace
 grace a
 feisty loving
+loving feisty
 best most
 gentle heartwarming
 charming funny
@@ -1579,6 +1639,7 @@ out touch
 make snigger
 character ultimately
 nice happy
+happy nice
 charming witty
 good reasonably
 likable sympathetic
@@ -1635,6 +1696,7 @@ good innocence
 love religion
 love support
 likable kind
+kind likable
 firm funny
 black unity
 sweet lyrical
@@ -1658,6 +1720,7 @@ greatest most
 bad sets
 poor rich
 unhappy restless
+restless unhappy
 attractive brave
 majestic incredibly
 sound visual
@@ -1676,12 +1739,14 @@ suit is
 time bodies
 white black
 respect admiration
+admiration respect
 kill her
 disappointing bland
 smart pop
 meek shy
 worthy exciting
 dignity respect
+respect dignity
 decency a
 delicacy sees
 love know
@@ -1727,6 +1792,7 @@ severe hilarious
 false misdirection
 out escapes
 good evil
+evil good
 character consequently
 bad guys
 lucrative mysterious
@@ -1741,8 +1807,10 @@ suit then
 character storytelling
 rare dying
 decency integrity
+integrity decency
 honest bold
 charming honest
+honest charming
 best most
 fear suspicion
 white tap
@@ -1751,7 +1819,9 @@ music color
 shock bewilderment
 character attitude
 good evil
+evil good
 good evil
+evil good
 love life
 black william
 better meatier
@@ -1825,11 +1895,13 @@ dainty sultry
 love hope
 dead flips
 good evil
+evil good
 love enlightenment
 angry jealous
 music search
 proper snotty
 dignity respect
+respect dignity
 conventional predictable
 free clear
 superior humorous
@@ -1869,7 +1941,9 @@ golden shots
 wonder passion
 deadly relentless
 good evil
+evil good
 good evil
+evil good
 music peace
 fresh innovative
 white elite
@@ -1927,3 +2001,4 @@ character not
 happy unaware
 sound pacing
 beautiful perfect
+perfect beautiful
