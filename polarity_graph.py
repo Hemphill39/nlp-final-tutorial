@@ -1,4 +1,7 @@
 from tutorial_util import load_relationships, load_seed_words
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import GaussianNB
+import numpy as np
 
 pos_words, neg_words = load_seed_words('pos_words.txt', 'neg_words.txt')
 and_relationships = load_relationships('and_relationships.txt')
@@ -19,7 +22,6 @@ for new_word in and_relationships:
 
         if seed_word in neg_words:
             distance_matrix[new_word][seed_word] -= 1
-
         
 for new_word in but_relationships:
     if new_word not in distance_matrix:
@@ -34,5 +36,43 @@ for new_word in but_relationships:
 
         if seed_word in neg_words:
             distance_matrix[new_word][seed_word] += 1
+
+allSeeds = pos_words + neg_words
+seedCt = len(allSeeds)
+trainMatrix = np.zeros((seedCt, seedCt))
+trainScores = np.zeros(seedCt)
+for rowA, word in enumerate(pos_words):
+    if word in distance_matrix:
+        columns = distance_matrix[word]
+        for seedWord in columns.keys():
+            columnNum = allSeeds.index(seedWord)
+            trainMatrix[rowA][columnNum] = columns[seedWord]
+
+rowA += 1
+for rowB, word in enumerate(neg_words):
+    if word in distance_matrix:
+        columns = distance_matrix[word]
+        for seedWord in columns.keys():
+            columnNum = allSeeds.index(seedWord)
+            trainMatrix[rowA+rowB][columnNum] = columns[seedWord]
+    trainScores[rowA+rowB] = 1
+print(trainScores)
+
+np.fill_diagonal(trainMatrix, 1)
+
+clf = GaussianNB()
+clf.fit(trainMatrix, trainScores)
+#print(clf.score(trainMatrix,trainScores))
+
+for word in distance_matrix.keys():
+    if word not in allSeeds:
+        row = np.zeros(seedCt)
+        columns = distance_matrix[word]
+        for seedWord in columns.keys():
+            columnNum = allSeeds.index(seedWord)
+            row[columnNum] = columns[seedWord]
+        row = [list(row)]
+        print(clf.predict_proba(row))
+
 
 print('done!')
