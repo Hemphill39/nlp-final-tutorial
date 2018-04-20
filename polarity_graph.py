@@ -56,7 +56,6 @@ for rowB, word in enumerate(neg_words):
             columnNum = allSeeds.index(seedWord)
             trainMatrix[rowA+rowB][columnNum] = columns[seedWord]
     trainScores[rowA+rowB] = 1
-print(trainScores)
 
 np.fill_diagonal(trainMatrix, 1)
 
@@ -72,7 +71,13 @@ for word in distance_matrix.keys():
             columnNum = allSeeds.index(seedWord)
             row[columnNum] = columns[seedWord]
         row = [list(row)]
-        print(clf.predict_proba(row))
+        scores = clf.predict_proba(row)[0]
+        diff = scores[0] - scores[1]
+        threshold = 0.1
+        if diff > threshold:
+            pos_words.append(word)
+        elif diff < (threshold*(-1)):
+            neg_words.append(word)
 
 
 print('done!')
