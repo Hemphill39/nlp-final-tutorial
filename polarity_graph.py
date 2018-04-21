@@ -1,7 +1,4 @@
 from tutorial_util import load_relationships, load_seed_words
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.naive_bayes import GaussianNB
-import numpy as np
 
 pos_words, neg_words = load_seed_words('pos_words.txt', 'neg_words.txt')
 and_relationships = load_relationships('and_relationships.txt')
@@ -36,6 +33,9 @@ for new_word in but_relationships:
 
         if seed_word in neg_words:
             distance_matrix[new_word][seed_word] += 1
+
+from sklearn.naive_bayes import GaussianNB
+import numpy as np
 
 allSeeds = pos_words + neg_words
 seedCt = len(allSeeds)
