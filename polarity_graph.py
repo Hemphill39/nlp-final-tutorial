@@ -61,7 +61,6 @@ np.fill_diagonal(trainMatrix, 1)
 
 clf = GaussianNB()
 clf.fit(trainMatrix, trainScores)
-#print(clf.score(trainMatrix,trainScores))
 
 for word in distance_matrix.keys():
     if word not in allSeeds:
@@ -79,5 +78,12 @@ for word in distance_matrix.keys():
         elif diff < (threshold*(-1)):
             neg_words.append(word)
 
+with open("new_pos_words.txt",'w') as fout:
+    for word in pos_words:
+        fout.write(str(word) + "\n")
+
+with open("new_neg_words.txt",'w') as fout:
+    for word in neg_words:
+        fout.write(str(word) + "\n")
 
 print('done!')
