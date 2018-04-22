@@ -26,8 +26,6 @@ for text in texts:
 
     tok_search = TokenSearcher(text)
     and_sequences = tok_search.findall('<\w*> <and> <\w*>')
-
-    # theres not that many but sequences
     but_sequences = tok_search.findall('<\w*> <but> <\w*>')
     # include sequences like ...'apple, but cat...' and 'apple but cat'
     # but_occurences = tok_search.findall('<\w*><,>? <but> <.*>')
